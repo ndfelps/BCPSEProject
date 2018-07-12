@@ -6,7 +6,7 @@ This may be a fairly small issue and simple to fix, but it creates a poor user e
 
 ## Reproducing The Issue
 
-  1. Apply Bedazzled through your store
+  1. Apply Bedazzled to your store
   2. Create enough categories to have two rows of categories on your storefront
   3. Create subcategories for all of those categories for easy testing
   4. Hover over a category in the top row, and then attempt to hover over one of the subcategories that appear
