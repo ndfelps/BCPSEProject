@@ -17,7 +17,7 @@ This may be a fairly small issue and simple to fix, but it creates a poor user e
   
   ### Actual Result
   
-  The inistial drop down menu you had disappears as soon as you attempt to mouse over it
+  The inistial drop down menu you had disappears as soon as you attempt to mouse over it, and the text of the categories overlaps on the drop down menu.
   
 ## The Solution
 
