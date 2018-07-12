@@ -1,0 +1,243 @@
+@import url(//fonts.googleapis.com/css?family=Josefin+Slab|Cinzel|Merriweather|Freckle+Face|Exo+2|Hammersmith+One|Ceviche+One|Open+Sans);
+/*
+
+!!!!!!!!!! WARNING !!!!!!!!!!
+
+If you edit theme.css, your changes will be overwritten by any compilation of theme.less
+Please remember to replicate your changes in init.less, or just make your changes in another file if possible
+
+!!!!!!!!!! WARNING !!!!!!!!!!
+
+*/
+/**
+ *   Bigcommerce Bedazzled with Less
+ *   – For the Less variables and functions that you don't want available in the Style Editor, declare them in this file.
+ */
+/**
+ *   Bigcommerce Bedazzled with Less
+ *
+ *   For compatability with the Bigcommerce Style Editor:
+ *    + Import your Google fonts first
+ *
+ *    + Declare your fonts for use in the editor by using '@font-declaration' (JSON format)
+ *      eg @font-declaration: '{ "Open Sans":["Open Sans","Arial","sans-serif"], "Freckle Face":["Freckle Face","cursive"] }'
+ *
+ *    + Declare your color palette for use in the editor by using '@color-declaration'
+ *      eg @color-declaration: '["#333", "#1399BE", "#EDEDED", "#FFF"]';
+ *
+ *    + Prefix fonts with '@font-' for the style editor to make it editable by the end user
+ *
+ *    + Prefix colors with '@color-' for the style editor to make it editable by the end user
+ *
+ *    + Prefix settings with '@setting-' for the style editor to make it adjustable by the end user
+ */
+/**
+ *   Declarations
+ */
+/**
+ *   Bigcommerce Bedazzled
+ *   Style Initialisation
+ */
+#Container {
+  border-top: 7px solid #000000;
+}
+#Logo h1 a {
+  color: #312e29;
+}
+#TopMenu li a {
+  color: #000000;
+}
+.PageMenu {
+  border-top: 1px solid #333333;
+}
+.PageMenu li a {
+  color: #000000;
+}
+#ContainerFooter {
+  background-color: #dcdcdc;
+}
+#ContainerFooter h2 {
+  color: #312e29 !important;
+}
+#ContainerFooter h2 {
+  border-bottom: 1px solid #312e29;
+}
+#Footer .PageMenu li a {
+  color: #312e29 !important;
+}
+#Footer .PageMenu li {
+  border-left: 1px solid #312e29;
+}
+#FooterUpper li a {
+  color: #312e29;
+}
+#ContainerFooter strong a {
+  color: #312e29;
+}
+#Footer p {
+  color: #312e29;
+}
+#Footer p a {
+  color: #312e29;
+}
+#ContainerFooter .NewsletterSubscription .Button {
+  background-color: #636363;
+}
+#Footer .PageMenu ul {
+  border-top: 1px solid #312e29;
+  border-bottom: 1px solid #312e29;
+}
+.Content,
+#Wrapper {
+  background-color: #ffffff;
+}
+.ProductList .pname {
+  border-left-color: #ebebeb;
+}
+#HomeFeaturedProducts .right-arrow {
+  color: #636363;
+}
+#HomeNewProducts .right-arrow {
+  color: #636363;
+}
+#HomeFeaturedProducts .ProductList,
+#SideTopSellers .ProductList,
+#HomeNewProducts .ProductList {
+  border-top: 3px solid #333333;
+}
+#HomeFeaturedProducts .ProductList,
+#SideTopSellers .ProductList,
+#HomeNewProducts .ProductList {
+  border-top: 3px solid #333333;
+}
+#HomeFeaturedProducts .ProductList .pname strong {
+  color: #636363;
+}
+#HomeNewProducts .ProductList .pname strong {
+  color: #636363;
+}
+#HomeFeaturedProducts .ProductList em {
+  color: #636363;
+}
+#HomeNewProducts .ProductList em {
+  color: #636363;
+}
+#ProductDetails h6 a {
+  color: #000000 !important;
+}
+#ProductDetails h1 {
+  color: #312e29 !important;
+}
+#ProductDetails .ProductList .pname strong {
+  color: #312e29 !important;
+}
+.ProductDetailsGrid .DetailRow.PriceRow .Value em {
+  color: #312e29;
+}
+#ProductDetails .left-content .ProductList em.p-price {
+  color: #312e29;
+}
+#prodAccordion .current .sub-title1 .bul {
+  color: #312e29 !important;
+}
+#ProductDetails .sub-title .right-arrow {
+  color: #312e29 !important;
+}
+#prodAccordion .sub-title1 .bul {
+  color: #312e29 !important;
+}
+#ProductDetails .prodAccordionContent {
+  color: #312e29;
+}
+.ProductDetailsGrid .Label {
+  color: #312e29;
+}
+div.selector span {
+  color: #312e29;
+}
+#Wrapper {
+  color: #312e29;
+}
+.ProductAddToCart .BulkDiscount input {
+  background-color: #333333 !important;
+}
+#CategoryHeading h2 {
+  color: #312e29 !important;
+}
+.Left #SideCategoryList h2 span,
+.Left .slist h2 span {
+  color: #312e29;
+}
+.Left #SideCategoryList li a {
+  color: #4c4944;
+  border-bottom: 1px solid #ffffff;
+}
+.Breadcrumb li a {
+  color: #999999;
+}
+#CategoryContent .ProductList .pname strong,
+#CategoryContent .ProductList .p-name a {
+  color: #636363;
+}
+#CategoryContent .ProductList .p-price {
+  color: #636363;
+}
+#CategoryContent .btn {
+  background-color: #333333;
+}
+body {
+  background-color: #ffffff;
+}
+.ProductList .ProductDetails {
+  font-family: "Merriweather", Georgia, Times, serif;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Josefin Slab", Georgia, Times, serif !important;
+}
+/* --- Faceted Search --- */
+.facet-container {
+  border-top: 1px solid #e6e6e6;
+}
+.facet-container [class^="js-facet-clear"] {
+  color: #9d9589;
+}
+.facet-container [class^="js-facet-clear"]:hover {
+  color: #696257;
+}
+.facet-container .btn-facet-more-options {
+  color: #312e29 !important;
+}
+.facet-container .btn-facet-more-options:hover {
+  color: #696257 !important;
+}
+.facet-container .facet-header-title,
+.facet-container .facet-option label,
+.facet-container .facet-option a {
+  color: #312e29 !important;
+}
+.facet-container .facet-option:hover {
+  background: #e6e6e6;
+}
+.facet-container .facet-option .facet-option-product-count {
+  color: #9d9589;
+}
+.js-faceted-search-container > [class^='js-facet-']:last-of-type .facet-container {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/* Fix for THEME-833 */
+.PageMenu .sf-menu li {
+  z-index:auto;
+}
+/* end fix */
